@@ -1,3 +1,3 @@
 # Professeur Canard ~ C
 
-Un TP en C avec des algorithme.
+Un TP 0n langage C avec des algorithmes.
