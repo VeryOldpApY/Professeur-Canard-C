@@ -1,0 +1,6 @@
+#ifndef CALCUL_SURFACE_H_INCLUDED
+#define CALCUL_SURFACE_H_INCLUDED
+
+void CalculSurface();
+
+#endif // CALCUL_SURFACE_H_INCLUDED

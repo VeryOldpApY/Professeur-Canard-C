@@ -1,0 +1,6 @@
+#ifndef LE_PLUS_GRAND_H_INCLUDED
+#define LE_PLUS_GRAND_H_INCLUDED
+
+void LePlusGrand();
+
+#endif // LE_PLUS_GRAND_H_INCLUDED
