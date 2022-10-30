@@ -3,6 +3,7 @@
 
 void EasterEgg_1();
 void EasterEgg_2();
+void EasterEgg_3();
 void PrintImage();
 
 #endif // EASTER_EGG_H_INCLUDED

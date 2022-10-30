@@ -136,6 +136,7 @@
     <ClCompile Include="menu.c" />
     <ClCompile Include="somme_multiplication.c" />
     <ClCompile Include="tableau.c" />
+    <ClCompile Include="table_ascii.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calcul_surface.h" />
@@ -146,9 +147,11 @@
     <ClInclude Include="menu.h" />
     <ClInclude Include="somme_multiplication.h" />
     <ClInclude Include="tableau.h" />
+    <ClInclude Include="table_ascii.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="canard.txt" />
+    <Text Include="Error.txt" />
     <text Include="pApY.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

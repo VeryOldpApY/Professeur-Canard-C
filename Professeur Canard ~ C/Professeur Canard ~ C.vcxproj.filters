@@ -42,6 +42,9 @@
     <ClCompile Include="tableau.c">
       <Filter>Fichiers de ressources</Filter>
     </ClCompile>
+    <ClCompile Include="table_ascii.c">
+      <Filter>Fichiers de ressources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="menu.h">
@@ -68,12 +71,18 @@
     <ClInclude Include="tableau.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="table_ascii.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="canard.txt">
       <Filter>Fichiers de ressources</Filter>
     </Text>
     <Text Include="pApY.txt">
+      <Filter>Fichiers de ressources</Filter>
+    </Text>
+    <Text Include="Error.txt">
       <Filter>Fichiers de ressources</Filter>
     </Text>
   </ItemGroup>

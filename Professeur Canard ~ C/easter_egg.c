@@ -36,6 +36,21 @@ void EasterEgg_2()
 	}
 }
 
+void EasterEgg_3()
+{
+	SetConsoleOutputCP(CP_UTF8);
+	FILE* fptr = fopen("Error.txt", "r");
+	if (fptr != NULL)
+	{
+		PrintImage(fptr);
+		fclose(fptr);
+	}
+	else
+	{
+		printf("Error File");
+	}
+}
+
 void PrintImage(FILE* fptr)
 {
 	char read_string[128];
