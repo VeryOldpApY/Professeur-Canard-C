@@ -6,7 +6,7 @@ void SommeMultiplication()
 	//Initie les variables.
 	int i = 0;
 
-	//Demande à l'utilisateur de saisir un nombre.
+	//Demande Ã  l'utilisateur de saisir un nombre.
 	printf("Indiquer le nombre que vous souhaitez : ");
 	scanf_s("%d", &i);
 
@@ -29,7 +29,7 @@ void Somme(int i)
 		rs += j;
 	}
 
-	//Affiche le résultat.
+	//Affiche le rÃ©sultat.
 	printf("%d = ", rs);
 	for (int j = 1; j < i; j++)
 	{
@@ -49,7 +49,7 @@ void Multiplication(int i)
 		rs = rs * j;
 	}
 
-	//Affiche le résultat.
+	//Affiche le rÃ©sultat.
 	printf("%d! = ", i);
 	printf("%d = ", rs);
 	for (int j = 1; j < i; j++)

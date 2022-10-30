@@ -12,7 +12,7 @@ void Etoiles()
 	printf("Entrez la taille du sapin : ");
 	scanf_s("%d", &nb);
 
-	//Boucle par rapport au nombre entr� par l'utilisateur.
+	//Boucle par rapport au nombre entré par l'utilisateur.
 	for (i = 1; i <= nb; i++)
 	{
 		//stock des espaces.
@@ -23,12 +23,12 @@ void Etoiles()
 		{
 			printf(" ");
 		}
-		//Affiche les �toiles.
+		//Affiche les étoiles.
 		for (k = 1; k <= 2 * i - 1; k++)
 		{
 			printf("*");
 		}
-		//Retour � la ligne.
+		//Retour à la ligne.
 		printf("\n");
 	}
 
@@ -42,5 +42,5 @@ void Etoiles()
 	{
 		printf(" ");
 	}
-	printf("************* Joyeux Noel *************\n");
+	printf("************* Joyeux Noël *************\n");
 }

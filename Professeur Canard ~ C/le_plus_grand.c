@@ -8,7 +8,7 @@ void LePlusGrand()
 	
 	for (int i = 0; i < 5; i++)
 	{
-		printf("Entrez le nombre dans n°%d que vous souhaitez stockez : ", i+1);
+		printf("Entrez le nombre dans nÂ°%d que vous souhaitez stockez : ", i+1);
 		scanf_s("%d", &tab[i]);
 		printf("\n");
 
@@ -19,6 +19,6 @@ void LePlusGrand()
 		}
 	}
 
-	printf("Le nombre le plus grand se trouve à l'index : %d et contenais : %d\n", big[0]+1, big[1]);
+	printf("Le nombre le plus grand se trouve Ã  l'index : %d et contenais : %d\n", big[0]+1, big[1]);
 
 }
