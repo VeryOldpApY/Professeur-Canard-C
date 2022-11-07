@@ -25,6 +25,5 @@ void LePlusGrand()
 	}
 
 	//Affiche le nombre le plus grand et son index.
-	printf("Le nombre le plus grand se trouve à l'index : %d et contenais : %d\n", big[0]+1, big[1]);
-
+	printf("Le nombre le plus grand se trouve à l'index : %d et contenais : %d\n", big[0]+1, big[1]);s
 }

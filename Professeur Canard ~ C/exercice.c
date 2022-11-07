@@ -6,6 +6,7 @@
 #include "le_plus_grand.h"
 #include "tableau.h"
 #include "table_ascii.h"
+#include "suite.h"
 
 void TP1_Ex1()
 {
@@ -34,6 +35,7 @@ void TP1_Ex4()
 void TP1_Ex5()
 {
 	//Lance la fonction.
+	Suite();
 }
 
 void TP1_Ex6()

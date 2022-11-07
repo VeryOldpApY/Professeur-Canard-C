@@ -2,8 +2,7 @@
 #define CALCUL_SURFACE_H_INCLUDED
 
 /*
-	* Calcul de la surface d'un rectangle
-	* @return Surface du rectangle
+	* @brief Calcul de la surface d'un rectangle.
 */
 void CalculSurface();
 

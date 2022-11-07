@@ -135,6 +135,7 @@
     <ClCompile Include="main.c" />
     <ClCompile Include="menu.c" />
     <ClCompile Include="somme_multiplication.c" />
+    <ClCompile Include="suite.c" />
     <ClCompile Include="tableau.c" />
     <ClCompile Include="table_ascii.c" />
   </ItemGroup>
@@ -146,6 +147,7 @@
     <ClInclude Include="le_plus_grand.h" />
     <ClInclude Include="menu.h" />
     <ClInclude Include="somme_multiplication.h" />
+    <ClInclude Include="suite.h" />
     <ClInclude Include="tableau.h" />
     <ClInclude Include="table_ascii.h" />
   </ItemGroup>

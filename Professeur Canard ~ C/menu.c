@@ -127,8 +127,10 @@ void MenuTP1()
 				printf("Choix invalide.\n");
 				break;
 		}
-
+		
+		//Message d'attente.
 		printf("\n\n\nAppuyez sur une touche pour continuer...");
+		//Pause.
 		getch();
 		//Vide la console.
 		system("cls");

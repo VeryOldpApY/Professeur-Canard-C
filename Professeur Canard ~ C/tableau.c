@@ -9,7 +9,7 @@ void Tableau()
 	while (nb != 0)
 	{
 		//Demande à l'utilisateur de saisir la taille du tableau.
-		printf("Entrer la taille de votre tableau : (max 10)\n");
+		printf("Entrer la taille de votre tableau : (max 10) (0 : Return)\n");
 		scanf_s("%d", &nb);
 
 		//Vérification de la taille du tableau, si 0 : l'utilisateur veut arrêter.
