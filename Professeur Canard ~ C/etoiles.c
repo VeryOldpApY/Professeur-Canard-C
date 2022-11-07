@@ -8,7 +8,7 @@ void Etoiles()
 	int i, j, k, l;
 	int sep = 1;
 
-	//R�cup�re le nombre de l'utilisateur
+	//Récupère le nombre de l'utilisateur.
 	printf("Entrez la taille du sapin : ");
 	scanf_s("%d", &nb);
 
@@ -42,5 +42,6 @@ void Etoiles()
 	{
 		printf(" ");
 	}
+	//Affiche Joyeux Noêl.
 	printf("************* Joyeux Noël *************\n");
 }
