@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "table_ascii.h"
 
-void Table_Ascii()
+void table_ascii(void)
 {
 	//Boucle entre 33 et 126.
 	for (int i = 33; i < 127; i++)

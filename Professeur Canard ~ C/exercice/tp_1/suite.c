@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "suite.h"
 
-void Suite()
+void suite(void)
 {
 	//Déclaration des variables.
     int nb = 0;
@@ -9,7 +9,6 @@ void Suite()
     do
     {
 		//Déclaration des variables.
-        float total = 0;
 		//Demande à l'utilisateur un nombre.
         printf("Entrez le nombre de terme de la suite a calculer n avec n > 0 (0 : Return) : ");
         scanf_s("%d", &nb);
@@ -21,7 +20,8 @@ void Suite()
         }
         else
         {
-			//Lance le calcul.
+	        float total = 0;
+	        //Lance le calcul.
             for (int i = 1; i <= nb; i++)
             {
                 total += 1. / i;

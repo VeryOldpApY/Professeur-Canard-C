@@ -1,21 +1,21 @@
-#ifndef SOMME_MULTIPLICATION_H_INCLUDED
-#define SOMME_MULTIPLICATION_H_INCLUDED
+#ifndef SOMME_MULTIPLICATION_H
+#define SOMME_MULTIPLICATION_H
 
 /*
 	* @brief Fonction qui calcule la somme et la multiplication d'un nombre.
 */
-void SommeMultiplication();
+void somme_multiplication(void);
 
 /*
 	* @brief Fonction qui calcule la somme d'un nombre.
 	* @param i Nombre à additionner.
 */
-void Somme(int i);
+void somme(int i);
 
 /*
 	* @brief Fonction qui calcule la multiplication d'un nombre.
 	* @param i Nombre à multiplier.
 */
-void Multiplication(int i);
+void multiplication(int i);
 
-#endif // SOMME_MULTIPLICATION_H_INCLUDED
+#endif // SOMME_MULTIPLICATION_H

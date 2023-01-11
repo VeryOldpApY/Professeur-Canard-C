@@ -1,12 +1,11 @@
 #define _CRT_SECURE_NO_DEPRECATE
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
 #include <wchar.h>
 #include <Windows.h>
 #include "easter_egg.h"
 
-void EasterEgg_1()
+void easter_egg_1(void)
 {
 	//Met la console en UTF-8.
 	SetConsoleOutputCP(CP_UTF8);
@@ -16,7 +15,7 @@ void EasterEgg_1()
 	if (fptr != NULL)
 	{
 		//Appel de la fonction d'affichage.
-		PrintImage(fptr);
+		print_image(fptr);
 		//Ferme le fichier.
 		fclose(fptr);
 	}
@@ -27,7 +26,7 @@ void EasterEgg_1()
 	}
 }
 
-void EasterEgg_2()
+void easter_egg_2(void)
 {
 	//Met la console en UTF-8.
 	SetConsoleOutputCP(CP_UTF8);
@@ -37,7 +36,7 @@ void EasterEgg_2()
 	if (fptr != NULL)
 	{
 		//Appel de la fonction d'affichage.
-		PrintImage(fptr);
+		print_image(fptr);
 		//Ferme le fichier.
 		fclose(fptr);
 	}
@@ -48,7 +47,7 @@ void EasterEgg_2()
 	}
 }
 
-void EasterEgg_3()
+void easter_egg_3(void)
 {
 	//Met la console en UTF-8.
 	SetConsoleOutputCP(CP_UTF8);
@@ -58,7 +57,7 @@ void EasterEgg_3()
 	if (fptr != NULL)
 	{
 		//Appel de la fonction d'affichage.
-		PrintImage(fptr);
+		print_image(fptr);
 		//Ferme le fichier.
 		fclose(fptr);
 	}
@@ -69,7 +68,7 @@ void EasterEgg_3()
 	}
 }
 
-void PrintImage(FILE* fptr)
+void print_image(FILE* fptr)
 {
 	//Déclaration des variables.
 	char read_string[128];

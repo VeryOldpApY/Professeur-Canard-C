@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "somme_multiplication.h"
 
-void SommeMultiplication()
+void somme_multiplication(void)
 {
 	//Initie les variables.
 	int i = 0;
@@ -11,14 +11,14 @@ void SommeMultiplication()
 	scanf_s("%d", &i);
 
 	//Lance la fonction Somme.
-	Somme(i);
+	somme(i);
 	printf("\n");
 	//Lance la fonction Multiplicateur.
-	Multiplication(i);
+	multiplication(i);
 	printf("\n");
 }
 
-void Somme(int i)
+void somme(const int i)
 {
 	//Initialise les variables.
 	int rs = 0;
@@ -38,7 +38,7 @@ void Somme(int i)
 	printf("%d", i);
 }
 
-void Multiplication(int i)
+void multiplication(const int i)
 {
 	//Initie les variables.
 	int rs = 1;

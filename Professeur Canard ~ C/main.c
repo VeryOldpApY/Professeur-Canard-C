@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include "menu.h"
 
-int main()
+int main(void)
 {
 	//Lance la fonction Menu.
-	Menu();
+	menu();
 	
 	//Finish.
 	return 0;

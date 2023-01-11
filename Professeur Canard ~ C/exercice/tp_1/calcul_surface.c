@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <math.h>
 
-void CalculSurface()
+void calcul_surface(void)
 {
 	//Initie les variables.
 	int nb = 0;
-	float cm = 0.0;
+	float cm = 0;
 
 	//Demande le nombre de côtés.
 	printf("Entrez le nombre de côté : ");
@@ -17,6 +17,6 @@ void CalculSurface()
 	scanf_s("%f", &cm);
 	
 	//Calcul la surface et l'affiche.
-	double clc = (nb * pow(cm, 2)) / (4 * tan(3.14 / nb));
+	const double clc = pow(cm, 2) * nb / (4 * tan(3.14 / nb));
 	printf("Le résultat est : %lf\n", clc);
 }

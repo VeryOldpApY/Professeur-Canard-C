@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "tableau.h"
 
-void Tableau()
+void tableau(void)
 {
 	//Déclaration des variables
 	int nb = -1;
@@ -20,8 +20,8 @@ void Tableau()
 
 		//Déclaration des variables.
 		int tab[10][10] = { 0 };
-		float totalV = 0;
-		float totalH = 0;
+		float total_v = 0;
+		float total_h = 0;
 		
 		//Boucle pour remplir le tableau.
 		for (int i = 0; i < nb; i++)
@@ -43,7 +43,7 @@ void Tableau()
 				printf("%d	", tab[i][j]);
 			}
 			printf("(%.2f)", moy / nb);
-			totalV += moy / nb;
+			total_v += moy / nb;
 			printf("\n");
 		}
 		
@@ -55,12 +55,12 @@ void Tableau()
 			{
 				moy += tab[j][i];
 			}
-			totalH += moy / nb;
+			total_h += moy / nb;
 			printf("(%.2f)  ", moy / nb);
 		}
-		if (totalH == totalV)
+		if (total_h == total_v)
 		{
-			printf("(%.2f)", totalH);
+			printf("(%.2f)", total_h);
 		}
 		else
 		{

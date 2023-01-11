@@ -1,19 +1,19 @@
-#ifndef MENU_H_INCLUDED
-#define MENU_H_INCLUDED
+#ifndef MENU_H
+#define MENU_H
 
 /*
 	* @brief Affiche le menu principal.
 */
-void Menu();
+void menu(void);
 
 /*
 	* @brief Affiche le menu du premier TP.
 */
-void MenuTP1();
+void menu_tp1(void);
 
 /*
 	* @brief Affiche le menu du second TP.
 */
-void MenuTP2();
+void menu_tp2(void);
 
-#endif // MENU_H_INCLUDED
+#endif // MENU_H

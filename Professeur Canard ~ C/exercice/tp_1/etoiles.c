@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "etoiles.h"
 
-void Etoiles()
+void etoiles(void)
 {
 	//Initie la variable.
 	int nb = 0;
-	int i, j, k, l;
+	int l;
 	int sep = 1;
 
 	//Récupère le nombre de l'utilisateur.
@@ -13,18 +13,18 @@ void Etoiles()
 	scanf_s("%d", &nb);
 
 	//Boucle par rapport au nombre entré par l'utilisateur.
-	for (i = 1; i <= nb; i++)
+	for (int i = 1; i <= nb; i++)
 	{
 		//stock des espaces.
 		sep += 2;
 
 		//Affiche les espaces.
-		for (j = 1; j <= nb - i; j++)
+		for (int j = 1; j <= nb - i; j++)
 		{
 			printf(" ");
 		}
 		//Affiche les étoiles.
-		for (k = 1; k <= 2 * i - 1; k++)
+		for (int k = 1; k <= 2 * i - 1; k++)
 		{
 			printf("*");
 		}

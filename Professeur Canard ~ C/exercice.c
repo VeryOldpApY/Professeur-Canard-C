@@ -1,57 +1,84 @@
 #include "exercice.h"
-#include "easter_egg.h"
-#include "calcul_surface.h"
-#include "somme_multiplication.h"
-#include "etoiles.h"
-#include "le_plus_grand.h"
-#include "tableau.h"
-#include "table_ascii.h"
-#include "suite.h"
+#include "exercice/bonus/easter_egg.h"
+#include "exercice/tp_1/calcul_surface.h"
+#include "exercice/tp_1/somme_multiplication.h"
+#include "exercice/tp_1/etoiles.h"
+#include "exercice/tp_1/le_plus_grand.h"
+#include "exercice/tp_1/tableau.h"
+#include "exercice/tp_1/table_ascii.h"
+#include "exercice/tp_1/suite.h"
+#include "exercice/tp_2/game_421.h"
 
-void TP1_Ex1()
+void tp1_ex1(void)
 {
 	//Lance la fonction.
-	CalculSurface();
+	calcul_surface();
 }
 
-void TP1_Ex2()
+void tp1_ex2(void)
 {
 	//Lance la fonction.
-	SommeMultiplication();
+	somme_multiplication();
 }
 
-void TP1_Ex3()
+void tp1_ex3(void)
 {
 	//Lance la fonction.
-	LePlusGrand();
+	le_plus_grand();
 }
 
-void TP1_Ex4()
+void tp1_ex4(void)
 {
 	//Lance la fonction.
-	EasterEgg_3();
+	easter_egg_3();
 }
 
-void TP1_Ex5()
+void tp1_ex5(void)
 {
 	//Lance la fonction.
-	Suite();
+	suite();
 }
 
-void TP1_Ex6()
+void tp1_ex6(void)
 {
 	//Lance la fonction.
-	Table_Ascii();
+	table_ascii();
 }
 
-void TP1_Ex7()
+void tp1_ex7(void)
 {
 	//Lance la fonction.
-	Etoiles();
+	etoiles();
 }
 
-void TP1_Ex8()
+void tp1_ex8(void)
 {
 	//Lance la fonction.
-	Tableau();
+	tableau();
+}
+
+void tp2_ex1(void)
+{
+	//Lance la fonction.
+}
+
+void tp2_ex2(void)
+{
+	//Lance la fonction.*
+}
+
+void tp2_ex3(void)
+{
+	//Lance la fonction.
+}
+
+void tp2_ex4(void)
+{
+	//Lance la fonction.
+}
+
+void tp2_ex5(void)
+{
+	//Lance la fonction.
+	game_421();
 }

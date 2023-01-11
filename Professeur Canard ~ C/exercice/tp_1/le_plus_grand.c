@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "le_plus_grand.h"
 
-void LePlusGrand()
+void le_plus_grand(void)
 {
 	//Déclarations de variables.
 	int tab[5] = {0, 0, 0, 0, 0};
@@ -25,5 +25,5 @@ void LePlusGrand()
 	}
 
 	//Affiche le nombre le plus grand et son index.
-	printf("Le nombre le plus grand se trouve à l'index : %d et contenais : %d\n", big[0]+1, big[1]);s
+	printf("Le nombre le plus grand se trouve à l'index : %d et contenais : %d\n", big[0]+1, big[1]);
 }

@@ -1,25 +1,25 @@
+#ifndef EASTER_EGG_H
+#define EASTER_EGG_H
 #include <stdio.h>
-#ifndef EASTER_EGG_H_INCLUDED
-#define EASTER_EGG_H_INCLUDED
 
 /*
 	* @brief Affiche le premier Easter Egg.
 */
-void EasterEgg_1();
+void easter_egg_1(void);
 
 /*
 	* @brief Affiche le second Easter Egg.
 */
-void EasterEgg_2();
+void easter_egg_2(void);
 
 /*
 	* @brief Affiche le dernier Easter Egg.
 */
-void EasterEgg_3();
+void easter_egg_3(void);
 
 /*
 	* @brief Affiche une image ASCII contenue dans un fichier.
 */
-void PrintImage(FILE* fptr);
+void print_image(FILE* fptr);
 
-#endif // EASTER_EGG_H_INCLUDED
+#endif // EASTER_EGG_H
