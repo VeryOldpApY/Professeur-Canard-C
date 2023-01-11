@@ -41,7 +41,9 @@ void game(void)
     {
         printf_s("Vous avez perdu !\n");
     }
-    getchar();
+    printf("\n\n\nAppuyez sur une touche pour continuer...");
+    getch();
+    system("cls");
 }
 
 int* verify_game(int des[])
